@@ -3,8 +3,7 @@ package org.example.treatment;
 import lombok.Getter;
 import org.example.Patient;
 
-@Getter
-public abstract class BaseTreatment implements Treatment {
+abstract class BaseTreatment implements Treatment {
 
     protected Treatment next;
 

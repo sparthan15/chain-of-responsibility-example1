@@ -31,6 +31,7 @@ public class Hospital {
         if (iterator.hasNext()) {
             Patient Patient = iterator.next();
             initialTreatment.treat(Patient);
+
         }
     }
 

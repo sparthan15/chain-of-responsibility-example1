@@ -2,7 +2,7 @@ package org.example.treatment;
 
 import org.example.Patient;
 
-public class Craziness extends BaseTreatment {
+class Craziness extends BaseTreatment {
 
     @Override
     public void treat(Patient patient) {
